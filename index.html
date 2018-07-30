@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>mancala</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="board">
+	<button id="p2goal" class="goal__two"></button>
+	<div class="playerOneSpot">
+		<button id="p1spot1" onClick="playerMove(1)"></button>
+		<button id="p1spot2" onClick="playerMove(2)"></button>
+		<button id="p1spot3" onClick="playerMove(3)"></button>
+		<button id="p1spot4" onClick="playerMove(4)"></button>
+		<button id="p1spot5" onClick="playerMove(5)"></button>
+		<button id="p1spot6" onClick="playerMove(6)"></button>
+	</div>
+	<div class="playerTwoRow">
+		<button id="p2spot6" onClick="playerMove(6)"></button>
+		<button id="p2spot5" onClick="playerMove(5)"></button>
+		<button id="p2spot4" onClick="playerMove(4)"></button>
+		<button id="p2spot3" onClick="playerMove(3)"></button>
+		<button id="p2spot2" onClick="playerMove(2)"></button>
+		<button id="p2spot1" onClick="playerMove(1)"></button>
+	</div>
+
+	<button id="p1goal" class="goal__one"></button>
+</div>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
